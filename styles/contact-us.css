@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Playfair';
+  src: url('../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf');
+}
+
+.contact-us {
+  background-color: #f0f0f0;
+  padding: 74px 0;
+}
+
+.contact-us__form {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: 'Playfair';
+}
+
+.contact-us__title {
+  margin: 0;
+  color: #333333;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.contact-us__email-field {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 74px 0 0;
+  padding: 14px 4px;
+  font-size: 14px;
+  color: #626262;
+}
+
+.contact-us__email-field::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+}
+
+@media (max-width: 768px) {
+  .contact-us__title {
+    font-size: 22px;
+  }
+
+  .contact-us__email-field {
+    font-size: 12px;
+  }
+}
